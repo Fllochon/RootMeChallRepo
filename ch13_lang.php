@@ -1,1 +1,1 @@
-<?php file_get_contents("/web-serveur/ch13/index.php") ?>
+<?php file_get_contents("php://filter/read=convert.base64-encode/resource=index.php") ?>
