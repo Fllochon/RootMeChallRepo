@@ -6,7 +6,7 @@
 	<xsl:output method="html"/>
 	
   <xsl:template match="/">
-	<xsl:value-of select="php:function('shell_exec', 'ls')"/>
+	<xsl:value-of select="php:function('system', 'ls')"/>
   </xsl:template>
 	
 </xsl:stylesheet>
