@@ -6,9 +6,9 @@
 	<xsl:output method="html"/>
 	
   <xsl:template match="/">
-	  <xsl:processing-instruction name="xml-stylesheet">
-		<xsl:text>echo "test"</xsl:text>
-	  </xsl:processing-instruction>
+	<xsl:processing-instruction name="php">
+	    echo "hello world!";
+	?</xsl:processing-instruction>
   </xsl:template>
 	
 </xsl:stylesheet>
